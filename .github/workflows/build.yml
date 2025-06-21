@@ -1,0 +1,21 @@
+# .github/workflows/build.yml
+name: Build with Maven
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Maven setup
+        run: |
+          chmod +x setup-maven.sh
+          sudo ./setup-maven.sh
+
+      - name: Build
+        run: mvn -B verify
