@@ -85,7 +85,6 @@ git remote add origin git@github.com:<your-name>/maven-codex-setup.git
 git push -u origin main
 ```
 
-
 ---
 
 ## [LICENSE](LICENSE)
