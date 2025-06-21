@@ -57,10 +57,17 @@ sudo ./setup-maven.sh
 `nist.gov`              | **Нет** | Не используется как Maven-репозиторий
 
 ## Файловая структура репозитория
-.
-├── setup-maven.sh     # Скрипт установки Maven + settings.xml
-├── README.md          # Этот файл
-└── LICENSE            # MIT-лицензия
+```
+maven-codex-setup
+├── setup-maven.sh
+├── README.md
+├── LICENSE
+├── .editorconfig
+└── .github
+└── workflows
+├── .github/worfklows/build.yml
+└── .github/worfklows/shellcheck.yml
+```
 
 ---
 
