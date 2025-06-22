@@ -17,8 +17,8 @@
 ## Быстрый старт
 
 ```bash
-git clone https://github.com/lonmstalker/maven-codex-setup.git
-cd maven-codex-setup
+git clone https://github.com/lonmstalker/maven-codex.git
+cd maven-codex
 
 # при необходимости переопределите переменные окружения
 export PROXY_HOST=proxy
@@ -58,7 +58,7 @@ sudo ./setup-maven.sh
 
 ## Файловая структура репозитория
 ```
-maven-codex-setup
+maven-codex
 ├── setup-maven.sh
 ├── README.md
 ├── LICENSE
