@@ -17,7 +17,7 @@
 ## Быстрый старт
 
 ```bash
-git clone https://github.com/<your-org>/maven-codex-setup.git
+git clone https://github.com/lonmstalker/maven-codex-setup.git
 cd maven-codex-setup
 
 # при необходимости переопределите переменные окружения
@@ -74,24 +74,5 @@ maven-codex-setup
 ### Лицензия
 
 Проект распространяется под лицензией **MIT** — см. файл `LICENSE`.
-
-## Как опубликовать на GitHub
-
-1. **Создать репозиторий**
-   В веб-интерфейсе GitHub нажмите **New → Repository**, задайте имя
-   (`maven-codex-setup`), выберите публичный/приватный, добавьте лицензию.
-
-2. **Залить код**
-
-```bash
-cd /path/to/maven-codex-setup       # папка со скриптом и README
-git init -b main
-git add setup-maven.sh README.md LICENSE
-git commit -m "Initial commit: Maven setup script and docs"
-git remote add origin git@github.com:<your-name>/maven-codex-setup.git
-git push -u origin main
-```
-
----
 
 ## [LICENSE](LICENSE)
